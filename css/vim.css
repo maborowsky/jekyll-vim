@@ -15,7 +15,7 @@ table#lines {
 table#lines tr {
     height: 1.1em;
     width: 100%;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 table#lines tr td {
@@ -31,6 +31,11 @@ table#lines tr td.line-num  {
     width: 1.1em;
     font-size .6em;
     overflow: hidden;
+}
+
+table#lines tr td.line-text  {
+    /* TODO: Take into account line-num */
+    text-align: center;
 }
 
 span#vim-airline, span #exec {
